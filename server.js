@@ -8,6 +8,7 @@ writeStream.write(
 );
 
 (async () => {
+  console.log("Please Wait..... Pappeteer is Launching.");
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setDefaultNavigationTimeout(0);
