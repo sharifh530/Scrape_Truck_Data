@@ -1,0 +1,16 @@
+{
+  "name": "otomo-scrap",
+  "version": "1.0.0",
+  "description": "This project will scrap otomo truck results",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sazzad Hossain",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^11.0.0",
+    "request-promise": "^4.2.6"
+  }
+}
